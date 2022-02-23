@@ -1,0 +1,137 @@
+
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+
+header{
+    background-color: #162028;
+    height: 50px;
+    position: relative;
+}
+
+.logotipo{
+    margin: 8px 0px 0px 140px;
+}
+
+.link{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 17px 50px 0px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.233);
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.texto{
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.texto h1{
+    font-size: 38px;
+    color: rgb(41, 41, 41);
+}
+
+.texto p{
+    margin: 0px 60px;
+    font-size: 18px;
+    line-height: 2;
+    color: rgba(31, 31, 31, 0.781);
+}
+
+.galeria{
+    color: #555;
+    margin: 0px 60px;
+    overflow: auto;
+}
+
+.card{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.nome{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+
+.qualidades{
+    color: rgba(85, 85, 85, 0.61);
+}
+
+.azul{
+    background-image: url(../imagens/bg_detalhe.png) ;
+    background-color: #003d52;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    color: white;
+}
+
+.azul h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+    
+}
+
+.azul p{
+  line-height: 1.7;
+  width: 70%;
+  font-size: 16px;
+}
+
+.contato{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #003d52;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.mapa{
+    width: 100% ;
+    height: 450px ;
+    margin-bottom: 46px;
+}
+
+.rodapé{
+    background-color: #00131a;
+    color: rgba(255, 255, 255, 0.582);
+    text-align: center;
+    padding: 3px 0px 3px 0px;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
